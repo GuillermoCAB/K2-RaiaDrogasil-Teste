@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`    
-    border-bottom: 1px solid #E0E0E0;
     width: 100%;
-    margin-top: 6.7px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,7 +42,7 @@ export const Text = styled.div`
 `;
 
 export const Dot = styled.span`  
-    background-color:  ${props => props.color};;
+    background-color:  ${props => props.color};
     width: 15px;
     border-radius: 100%;
     height: 15px;

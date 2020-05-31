@@ -4,6 +4,7 @@ import { Wrapper, Container } from './styles';
 
 import Header from '../../Components/Header';
 import CallToAction from '../../Components/CallToAction';
+import Cards from '../../Components/Cards';
 
 
 function Main() {
@@ -11,6 +12,7 @@ function Main() {
       <Container>
           <Header />
           <CallToAction />
+          <Cards />
       </Container>
   </Wrapper>
 }
