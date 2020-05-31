@@ -2,10 +2,15 @@ import React from 'react';
 
 import { Wrapper, Container } from './styles';
 
+import Header from '../../Components/Header';
+import CallToAction from '../../Components/CallToAction';
+
+
 function Main() {
   return <Wrapper>
       <Container>
-          <p>asd</p>
+          <Header />
+          <CallToAction />
       </Container>
   </Wrapper>
 }
